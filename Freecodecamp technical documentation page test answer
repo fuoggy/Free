@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+<meta charset='UTF-8'/>
+<meta http-equiv="X-UA-Compatible" content="IT=edge"/>
+<meta name="viewport" content='width=device-width, initial-scale=1.0'>
+ <link rel="stylesheet" href="styles.css">
+<title> Java Document</title> 
+</head>
+
+
+  
+  <body>
+    <nav id="navbar">
+      <header>Java Documentation</header>
+<ul>
+        <li> 
+          <a class="nav-link" href="#Getting_Started_With_Java"> Getting Started With Java</a> </li>
+          <li>
+  <a  class="nav-link" href="#Java_Entry_Point">Java Entry Point</a> </li>
+            <li> <a class="nav-link" href="#Printing_to_the_console"> Printing to the console</a></li>
+            <li> <a class="nav-link" href="#Declaring_Functions">Declaring Functions</a> </li>
+              <li> <a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a></li>
+                
+        </ul> 
+        </nav>
+       <main id="main-doc">
+         <section class="main-section" id="Getting_Started_With_Java">
+           <header> Getting Started With Java</header> 
+           <p>Steps in getting started</p>
+           <ol>
+            <li>Download Java</li>
+            <li>Download Java 50k</li>
+            <li>Get an Integrated Development Environment (IDE)</li>
+            <li>Start a project within the IDE</li>
+            <li>Code up 'Hello World" and run the code</li> </ol>
+        </section>  
+         
+        <section class="main-section" id="Java_Entry_Point">
+           <header>Java Entry Point</header> 
+           <p>The entry point to a Java application is the main function. </p>
+          <p>It is categorized by its (String[] arg) as a parameter to the function</p>
+           <pre><code>
+            public class <MyMainfunction>/* Java main function example */</MyMainfunction>public static void main(String[] args){
+            }
+            }
+           </code></pre> 
+           <p>The name of the project is therefore "MyMainfunction"</p></section>
+          <section class="main-section" id="Printing_to_the_console">
+           <header>Printing to the console</header> <p>In order to print to the console. We use System.out.printin.</p>
+          <p>
+            I know, it is very long and cumbersome, but this is the way it's done.
+          </p>
+        <pre> <code>
+          public class MyMainfunction{
+            */ Java main function <example></example>public static void main (String[] args){
+              System.out.prinitin('Hello World'); 
+            
+            }
+          }
+        </code>
+      </pre>
+      <p> 
+        In this example we are printing out "Hello World" to the console when we run the program.
+      </p>
+    </section>
+            
+           <section class="main-section" id="Declaring_Functions">
+           <header>Declaring Functions</header> <p>
+            Functions are actually called methods in Java. Here is an example of how to declare a Java method.
+           </p>
+           <img src="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes/myobject-prototype-chain.svg" alt="declare-java" loading='lazy' class="image" />
+           <p>some copiable code:</p>
+          <pre><code>
+            Public static void myFunction(String name, int age)
+            { //function code}
+          </code>
+          </pre>
+          </section>
+            
+           <section class="main-section" id="Object_Oriented_Programming">
+           <header>Object Oriented Programming</header> <p>
+            Java is known as an object oriented programming language
+           </p> 
+          <p>This means that it is easy to represent entities as objects by using classes and encapsulation.</p>
+        <p>An example of this might be a Student class to represent a student</p>
+      <pre>
+        <code>
+        public class Student{
+          /*Student <properties></properties>private String name;
+          private int age;
+
+          /*Constructor*/
+          public Student (String name, int age){
+            this.name = name;
+            this.age= age;
+          }
+        /*Getter method */
+        public String getName(){
+          this.name = name;
+        }
+        /* Seter method */
+        public void setName(String name){
+          this.name = name;
+        } }
+      </code>
+      </pre>
+    <p>We use this class by doing the following:</p>
+  <pre><code>
+    Student student1 =new Student("Jimmy", 19);
+    Srring jimmyName = student1.getName();
+    student1.setName("Kevin");
+    String kevinName = student1.getName();
+
+   const htmlSourceAttr = Array.from(document.querySelectorAll('source')).map(el => el.getAttribute('media'))
+const cssCheck = new __helpers.CSSHelp(document).getCSSRules('media')
+assert(cssCheck.length > 0 || htmlSourceAttr.length > 0);
+  </code>
+</pre>
+</section>
+
+
+<footer>
+  <p>
+    Documentation brought to you by dsleazii
+  </p>
+</footer>
+    </body>
+    </html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+html{scroll-behavior:smooth;}
+
+body{
+    background-color:rgb(234, 234, 234);
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section{
+    margin-top:40px;
+}
+
+#navbar{
+    background-color:#fff;
+    width:100%;
+    border-bottom:1px solid;
+}
+
+#navbar li{
+    color:#4d4e53;
+    border-top:1px solid black;
+    list-style:none;
+}
+
+#navbar a{
+    display:block;
+    padding:10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor:pointer;
+    font-size:18px;
+    transition: text-indent 0.3s eas-in-out;
+}
+
+#navbar a:hover{
+    font-weight: 50;
+    text-indent:5px;
+    }
+
+p{margin:10px;}
+
+ol{margin-left:30px;}
+
+#main-doc{margin: 0 auto;}
+
+header{
+    color:black;
+    margin:10px;
+    text-align:center;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+code{
+    display:block;
+    text-align:left;
+    white-space:pre;
+    word-break:normal;
+    word-wrap:normal;
+    line-height:1.5;
+    background-color:#fff;
+    padding:0 15px;
+    margin:10px;
+    border-radius: 5px;
+}
+
+.image{width:100%;}
+
+footer{
+    padding:30px;
+    text-align:center;
+    color:#888;
+}
+
+#navbar{width:300px;
+position:fixed;
+height:100%;
+resize:horizontal;
+overflow-x: scroll;
+}
+.image{
+    width:70%;
+    margin-left:20px;
+}
+#main-doc{
+    margin:0 20px;
+    margin-left:350px;
+}
+
+@media screen and (max-width: 480px){body
+     {flex-direction: row;}
+  }
